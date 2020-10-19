@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html>
+<title>IT-XEON</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="css/estilo.css">
+<link href="https://fonts.googleapis.com/css2?family=Mako&display=swap" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style>
+h1,h2,h4,h5,h6 {font-family: 'Oswald', sans-serif;}
+h1 {
+font-size: 30px;
+
+}
+h2 {
+font-size: 19px;
+}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  
+}
+div .menum{
+    font-size: 17px;
+}
+
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("imagenes/fondo8.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("imagenes/fondoo.jpg");
+  min-height: 80%;
+  
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-row w3-black w3-top">
+  <div class="w3-col" style="width:150px" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-left"> 
+    <img src="imagenes/logo1.png" alt="Ixon" style="width:92%">
+    </a></div>
+    <!-- Right-sided navbar links -->
+    <div class="menum w3-right w3-hide-small" style="font-family: 'Inconsolata', monospace;">
+      <a href="#about" class="w3-bar-item w3-button">NOSOTROS</a>
+      
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TRABAJOS</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRECIO</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACTO</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="menus w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none font-family: 'Inconsolata', monospace;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Cerrar ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">NOSOTROS</a>
+  
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">TRABAJOS</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRECIOS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class=" w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-black w3-hide-small">SERVICIOS IT PARA EMPRESAS</span><br>
+    <span class="w3-xxlarge w3-black w3-hide-large w3-hide-medium">SERVICIOS IT PARA EMPRESAS</span><br>
+    <span class="w3-large w3-black">Diseñamos soluciones a medida optimizando sus procesos y reduciendo costos.</span>
+    <p><a href="#about" class="w3-button  w3-padding-large w3-large w3-margin-top w3-white w3-opacity w3-hover-opacity-off">COMIENCE AHORA MISMO</a></p>
+  </div> 
+  <!--
+ <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div> -->
+</header>
+
+<!-- About Section -->
+<div class="w3-container w3-panel" id="about">
+
+  <h1 class="w3-opacity w3-wide w3-center">ACERCA DE NUESTROS SERVICIOS</h1>
+  <p class="w3-center w3-opacity w3-large" style="font-family: 'Inconsolata', monospace;">Características clave de nuestra empresa</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fas fa-undo w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large" style="font-family: 'Bungee', cursive;">INNOVACIÓN y PROFESIONALISMO</p>
+      <p class="w3-opacity" style="font-family: 'Inconsolata', monospace;">Contamos con las mejores soluciones y recursos humanos</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-group w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large" style="font-family: 'Bungee', cursive;">TRABAJO EN <br>EQUIPO</p>
+      <p class="w3-opacity" style="font-family: 'Inconsolata', monospace;">Entendemos que los proyectos alcanzan el éxito sólo cuando las personas 
+      trabajan juntas persiguiendo el mismo
+      objetivo, sumado a nuestro mancomunado e interdisciplinario trabajo en equipo</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="far fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large" style="font-family: 'Bungee', cursive;">TRANSPARENCIA Y HONESTIDAD</p>
+      <p class="w3-opacity" style="font-family: 'Inconsolata', monospace;">Sólo recomendamos al cliente aquello que necesitaen funcióna los análisis, relevamientos y 
+      auditorias que realizamos de datos concretos para conseguir mejoras medibles y constantes</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-user-tie w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large" style="font-family: 'Bungee', cursive;">ORIENTACIÓN 100% AL CLIENTE</p>
+      <p class="w3-opacity" style="font-family: 'Inconsolata', monospace;">No sólo nos adaptamos sino que además buscamos crear relaciones
+      a largo plazo comprobables a lo largo de nuestra trayectoria</p>
+    </div>
+  </div>
+</div>
+<br><br>
+<!-- Promo Section - "We know design" -->
+
+<!-- Team Section -->
+
+
+<!-- Promo Section "Statistics" -->
+
+
+<!-- Work Section -->
+<header class="bgimg-2 w3-display-container w3-grayscale-min" id="work">
+<div class="w3-container w3-panel w3-opacity  w3-indigo">
+
+    <h1 class="w3-wide w3-center">NUESTRO TRABAJO</h1>
+ </div>
+ <div class="w3-content  w3-text-black w3-center w3-display-container">
+  <p class="w3-center w3-large  "><h3 class="w3-center w3-opacity w3-white w3-large w3-hover-opacity-off" style="font-family: 'Oswald', sans-serif;">En IT-XEON 
+Nuestros técnicos realizan una análisis completo de la situación de la empresa a nivel estructural y garantizan la mejor <br><br> solución posible.
+Servicios como la virtualización, backups periódicos, sistemas de seguridad, cableado, sistemas de comunicación, cloud, etc.<br><br> Sin olvidar la 
+realización del mantenimiento de los equipos informáticos o el soporte técnico para solvertar todo tipo de dudas o incidencias.</h3></p><br><br>
+<!-- Modal  -->
+<div class="w3-content  w3-center w3-display-container">
+<div class="w3-row-padding w3-center">
+
+
+    <div class=" w3-quarter">
+       <button class="button w3-center w3-white"onclick="document.getElementById('id01').style.display='block'">
+	SEGURIDAD
+	<div class="button__horizontal"></div>
+	<div class="button__vertical"></div></button>
+       
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top   w3-card-4">
+      <header class="w3-container   w3-indigo"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>SEGURIDAD INFORMÁTICA</h2>
+      </header>
+      <div class="w3-container ">
+        <p style="font-family: 'Tauri', sans-serif; font-size: 18px; ">Firewall e inspección de contenido UTM, Balanceo de <br><br>enlaces, Segmentación de redes, WiFi Seguro.</p>
+        
+      </div>
+      <footer class="w3-container  w3-indigo">
+        <p><h2>IT-XEON</h2></p>
+      </footer>
+    </div>
+  </div>
+
+    </div>
+
+
+    <div class=" w3-quarter">
+     <button class="button w3-center w3-white"onclick="document.getElementById('id02').style.display='block'">
+	SOLUCIONES
+	<div class="button__horizontal"></div>
+	<div class="button__vertical"></div></button>
+     
+
+  <div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container  w3-indigo"> 
+        <span onclick="document.getElementById('id02').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>SOLUCIONES INTEGRALES</h2>
+      </header>
+      <div class="w3-container ">
+        <p style="font-family: 'Tauri', sans-serif; font-size: 18px; ">Telefonía IP, WiFi Empresarial, Cableado de Datos y <br><br>Energía, Control de Acceso y Cámaras.</p>
+        
+      </div>
+      <footer class="w3-container  w3-indigo">
+        <p><h2>IT-XEON</h2></p>
+      </footer>
+    </div>
+  </div>
+
+    </div>
+
+
+    <div class=" w3-quarter">
+      
+    <button class="button w3-center w3-white"onclick="document.getElementById('id03').style.display='block'">
+	SOPORTE
+	<div class="button__horizontal"></div>
+	<div class="button__vertical"></div></button>
+
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-indigo"> 
+        <span onclick="document.getElementById('id03').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>SOPORTE TÉCNICO</h2>
+      </header>
+      <div class="w3-container ">
+        <p style="font-family: 'Tauri', sans-serif; font-size: 18px;">Servicios de soporte de hardware y software<br><br> adaptándonos a sus necesidades.</p>
+        
+      </div>
+      <footer class="w3-container  w3-indigo">
+        <p><h2>IT-XEON</h2></p>
+      </footer>
+    </div>
+  </div>
+  </div>
+
+   <div class=" w3-quarter">
+    <button class="button w3-center w3-white"onclick="document.getElementById('id04').style.display='block'">
+	MANTENIMIENTO
+	<div class="button__horizontal"></div>
+	<div class="button__vertical"></div></button>
+
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-indigo"> 
+        <span onclick="document.getElementById('id04').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>MANTENIMIENTO SERVIDORES</h2>
+      </header>
+      <div class="w3-container ">
+        <p style="font-family: 'Tauri', sans-serif; font-size: 18px; ">Instalación y Administración de Servidores en<br><br> ambientes Microsoft. Virtualización, Backup.</p>
+        
+      </div>
+      <footer class="w3-container w3-indigo">
+        <p><h2>IT-XEON</h2></p>
+      </footer>
+    </div>
+  </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+</div>
+</header>
+<!-- Skills Section -->
+<br><br>
+
+<!-- Precios Section -->
+<div class="w3-container w3-panel w3-opacity  w3-indigo" id="pricing">
+
+    <h1 class="w3-opacity w3-wide w3-center" >PRECIOS</h1>
+ </div><br>
+ <p class="w3-center w3-opacity w3-large" style="font-family: 'Inconsolata', monospace;">Elija un plan de precios que se ajuste a sus necesidades.</p>
+ 
+  
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">PACK 10 HORAS</li>
+        <li class="w3-padding-16 "><b>sin soporte remoto</b> </li>
+        <li class="w3-padding-16"><b>intervenciones básicas en equipo</b></li>
+        <li class="w3-padding-16"><b>atención en 24 hs</b></li>
+        <li class="w3-padding-16"><b>sin costo de viáticos (*)</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ ??</h2>
+          <span class="w3-opacity">por mes</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-round-large w3-padding-large">Solicitar</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class=" w3-indigo w3-xlarge w3-padding-48">PACK 20 HORAS</li>
+        <li class="w3-padding-16"><b>soporte remoto</b></li>
+        <li class="w3-padding-16"><b>intervenciones en equipos y servidores</b></li>
+        <li class="w3-padding-16"><b>atención en 24 hs</b></li>
+        <li class="w3-padding-16"><b>sin costo de viáticos (*)</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ ??</h2>
+          <span class="w3-opacity">por mes</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-round-large w3-padding-large">Solicitar</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">PACK 30 HORAS:</li>
+        <li class="w3-padding-16"><b>soporte remoto</b></li>
+        <li class="w3-padding-16"><b>intervenciones en equipos y servidores</b> </li>
+        <li class="w3-padding-16"><b>atención en 12 hs</b> </li>
+        <li class="w3-padding-16"><b>sin costo de viáticos (*)</b> </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ ??</h2>
+          <span class="w3-opacity">por mes</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-round-large w3-padding-large">Solicitar</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-panel w3-light-grey" style="padding:128px 16px" id="contact">
+  <h1 class="w3-center w3-wide  w3-indigo w3-opacity">CONTACTO</h1>
+  <p class="w3-center w3-opacity w3-large" style="font-family: 'Inconsolata', monospace;">Mantengámonos en contacto. Mandanos un mensaje:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Buenos Aires, AR</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> telefono: +54 11 58078767</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: acdsilva@itxeon.com</p>
+    <br>
+    <form action="enviar.php" method="post">
+      <p><input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Asunto" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-round-large w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+        </button>
+      </p>
+    </form>
+    
+    <!-- Image of location/map -->
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+ <a class="button2"  href="#home">
+	Inicio
+	<div class="button__horizontal2"></div>
+	<div class="button__vertical2"></div></a>
+
+  
+  
+</footer>
+ 
+<script>
+
+
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
